@@ -27,3 +27,8 @@ npm run dev
 ## v11
 - Die Platzhalterbilder wurden durch die vom Nutzer bereitgestellten echten Gerichtsfotos ersetzt.
 - Verwendet auf der Startseite, in der Orbit-Ansicht, in den Rezeptkarten und auf den einzelnen Rezeptseiten.
+
+
+## v12
+- Vercel SPA deep-link routing fixed with `vercel.json`.
+- Direct recipe URLs such as `/rezepte/lohikeitto` now resolve through `index.html` after deployment.
